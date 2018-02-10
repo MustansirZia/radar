@@ -11,7 +11,7 @@ function homepage (req, res) {
 
 // Monitor API
 
-api.get(/^(\/ping)?\/?$/, homepage)
+// api.get(/^(\/ping)?\/?$/, homepage)
 api.get(/^\/engine.io\/ping.*$/, homepage)
 
 // Radar API
